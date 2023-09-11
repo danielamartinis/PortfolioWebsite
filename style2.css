@@ -1,0 +1,165 @@
+/* Customization for specific text sections and links*/
+.heading {
+    font-size: 30pt;
+    color: #903e4a;
+}
+.custom-link {
+    color: #903e4a;
+}
+.custom-button {
+    background-color: #93a3a4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 5px solid #93a3a4;
+    font-size: 10px;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.faded-text {
+    opacity: 0.25;
+}
+
+/* Customization for main box and any other boxes used */
+.container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+/* */
+.greeting-box {
+    background-color: #fff;
+    color: #903e4a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    height: auto;
+    border: 10px solid #93a3a4;
+    position: relative;
+}
+.spine-box {
+    width: 30px;
+    background-color: #fff;
+    color: #903e4a;
+    border: 5px solid #93a3a4;
+    border-radius: 10px;
+    padding: 20px;
+}
+.page-box {
+    background-color: #fff;
+    color: #903e4a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    height: auto;
+    border: 10px solid #93a3a4;
+    position: relative;
+}
+/* ChatGPT's work */
+.ai-box {
+    background-color: #fff;
+    color: #903e4a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    line-height: 1.5; /* Adjust line height for better readability */
+    border: 10px solid #93a3a4;
+    position: relative;
+}
+/* */
+.square-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.square-box {
+    background-color: #fff;
+    color: #903e4a;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10pt;
+    border: 2px solid #93a3a4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.square-boxes2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.square-box2 {
+    background-color: #fff;
+    color: #903e4a;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10pt;
+    border: 2px solid #93a3a4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Tabs Customization */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 0;
+}
+
+.tab-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-list li {
+    margin: 0;
+}
+
+.tab-list a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #903e4a;
+    border-left: 3px solid transparent;
+    font-family: Georgia, serif;
+}
+
+.tab-list a:hover {
+    background-color: #f0f0f0;
+    border-right: 10px solid #93a3a4;
+}
+
+.tab-content .tab {
+    display: none;
+}
+
+.tab-content .tab.active {
+    display: block;
+}
